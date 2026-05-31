@@ -32,7 +32,7 @@ AI를 단순한 챗봇이 아닌 '직원'처럼 업무에 투입하려면 다음
 1. **이름과 성향 (Soul):** 에이전트의 이름, 말투, 대답하는 방식.
 2. **기억 (Memory):** 회사의 기본 정보, 대표자의 성향, 과거 지시 내역.
 3. **보고 채널 (Channel):** 이메일, 슬랙, 카카오톡, 텔레그램 중 어디로 보고할 것인지.
-4. **업무 스케줄 (Schedule):** 언제(매일 아침, 매월 10일) 먼저 말을 걸고 업무를 시작할 것인지.
+4. **업무 스케줄 (Schedule):** 구글 캘린더, 애플 미리알림, 슬랙 리마인더 등 코딩이 필요 없는 도구를 활용한 스케줄 셋업.
 5. **업무 매뉴얼 (Manual):** 구체적으로 어떤 일을 어떻게 처리해야 하는지(가이드라인).
 *   **권한자 확인:** 위 5가지 요소를 설정한 후, 에이전트는 반드시 권한자(대표/창업자)에게 "이 설정이 회사의 운영 방침과 일치합니까?"라고 묻고 정확한지 확인받는 절차를 거쳐야 합니다.
 
@@ -124,7 +124,7 @@ Guide the setup of 5 persona settings required to treat AI as a real employee:
 1. **Name & Tone (Soul)**
 2. **Memory**
 3. **Reporting Channel (Email/Slack/etc.)**
-4. **Work Schedule (n8n/cron)**
+4. **Work Schedule (Google Calendar/Reminders - Zero coding)**
 5. **Work Manual (Skills)**
 * Must ask the authoritative user (CEO): "Does this setup align with company policy?" for approval.
 
